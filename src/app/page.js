@@ -104,7 +104,28 @@ export default function Home() {
       </main>      
 
       <footer>
-        
+        <section id="contact">
+          <div>
+            <div>
+              <h2>Contact Me</h2>
+              <p>Let's Chat!</p>
+              <div>
+                <p>LinkedIn</p> {/* TODO: Replace with social media icon and link */}
+                <p>GitHub</p>  {/* TODO: Replace with social media icon and link */}
+              </div>
+            </div>
+
+            <div> {/* TODO: Contact Form */}
+              <form>
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </section>
+        <p>© 2025 Design and Developed by Grace Ilori</p>
       </footer>
     </>
   );
