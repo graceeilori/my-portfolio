@@ -13,15 +13,14 @@ export default function Home() {
           priority
         />
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.js
-            </code>
-            .
+          <li className="tracking-[-.01em]">
+            Hi. I’m Grace.
           </li>
           <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
+            I explore how people interact with technology and use the insights gained to build solutions that are intuitive and impactful.
+          </li>
+            <li className="tracking-[-.01em]">
+              welcome to my space...
           </li>
         </ol>
 
