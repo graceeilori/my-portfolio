@@ -17,7 +17,7 @@ export default function Home() {
       <main>
 
         <section id="home">
-          <h1>Hi. I’m Grace.</h1>
+          <h1 className="font-playfair text-7xl font-bold">Hi. I’m Grace.</h1>
           <p>I explore how people interact with technology and use the insights gained to build solutions that are intuitive and impactful.</p>
           <p>welcome to my space...</p>
         </section>
