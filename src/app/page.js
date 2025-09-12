@@ -2,22 +2,35 @@ export default function Home() {
   return (
     <>
       <header>
-        <nav>
+        <nav className="self-stretch py-4 inline-flex justify-end items-center gap-12">
           <div>Grace Ilori</div> {/* TODO: Replace with logo */}
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="https://drive.google.com/file/d/1-nebFR8bCl7dHBkYg9oRd6eJ7FHGARi1/view?usp=sharing">Resume</a></li>
-          </ul>
+  
+          <div className="px-3 py-2 flex justify-center items-center gap-2">
+            <a href="#home" className="text-center justify-start text-indigo-900 text-2xl font-medium font-['Playfair_Display'] leading-loose">Home</a>
+          </div>
+          
+          <div className="px-3 py-2 flex justify-center items-center gap-2">
+            <a href="#aboutme" className="text-center justify-start text-indigo-900 text-2xl font-medium font-['Playfair_Display'] leading-loose">About Me</a>
+          </div>
+          
+          <div className="px-3 py-2 flex justify-center items-center gap-2">
+            <a href="#projects" className="text-center justify-start text-indigo-900 text-2xl font-medium leading-loose">Projects</a>
+          </div>
+          
+          <div className="px-3 py-2 flex justify-center items-center gap-2">
+            <a href="#contact" className="text-center justify-start text-indigo-900 text-2xl font-medium leading-loose">Contact</a>
+          </div>
+          
+          <div className="px-3 py-2 flex justify-center items-center gap-2">
+            <a href="https://drive.google.com/file/d/1-nebFR8bCl7dHBkYg9oRd6eJ7FHGARi1/view?usp=sharing" className="text-center justify-start text-indigo-900 text-2xl font-medium font-['Playfair_Display'] leading-loose">Resume</a>
+          </div>
         </nav>
       </header>
     
       <main>
 
         <section id="home">
-          <h1 className="font-playfair text-7xl font-bold">Hi. I’m Grace.</h1>
+          <h1>Hi. I’m Grace.</h1>
           <p>I explore how people interact with technology and use the insights gained to build solutions that are intuitive and impactful.</p>
           <p>welcome to my space...</p>
         </section>
