@@ -1,8 +1,31 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary-100: #DDD9E8;
+  --primary-200: #C6C0D9;
+  --primary-300: #A9A0C6;
+  --primary-400: #8D81B4;
+  --primary-500: #7061A1;
+  --primary-600-main: #54428E;
+  --primary-700: #463776;
+  --primary-800: #382C5F;
+  --primary-900: #2A2147; 
+  --primary-1000: #110D1C;
+
+  --accent-lavender: #EFC3F5;
+  --accent-mint: #A7D3CF;
+  --accent-lemon: #FAF0CA;
+  --accent-tangerine: #EF946C;
+  --accent-mist: #C6E2E9;
+
+  --neutral-100: #FCFCFC;
+  --neutral-200: #E6E6E6;
+  --neutral-300: #737373;
+  --neutral-400: #404040;
+  --neutral-500: #0D0D0D;
+
+  --white: #FFFFFF;
 }
 
 @theme inline {
@@ -12,15 +35,15 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ededed;
+    --foreground: #0a0a0a;
   }
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--primary-800);
+  font-family: 'Nunito', sans-serif;
 }
