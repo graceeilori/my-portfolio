@@ -6,7 +6,7 @@ const nunito = Nunito({
   subsets: ["latin"],
 });
 
-const geistMono = Playfair_Display({
+const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
 });
