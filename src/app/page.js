@@ -2,27 +2,28 @@ export default function Home() {
   return (
     <>
       <header>
-        <nav className="self-stretch py-4 inline-flex justify-end items-center gap-12">
-          <div>Grace Ilori</div> {/* TODO: Replace with logo */}
-  
-          <div className="px-3 py-2 flex justify-center items-center gap-2">
-            <a href="#home" className="text-center justify-start text-indigo-900 text-2xl font-medium font-['Playfair_Display'] leading-loose">Home</a>
-          </div>
+        <nav className="self-stretch py-4 inline-flex justify-between items-center">
+          <div className="text-2xl font-medium font-['Playfair_Display']">Grace Ilori</div> {/* TODO: Replace with logo */}
+          <div>
+            <div className="px-3 py-2 flex justify-center items-center gap-2">
+              <a href="#home" className="text-center justify-start text-2xl font-medium font-['Playfair_Display'] leading-loose">Home</a>
+            </div>
           
-          <div className="px-3 py-2 flex justify-center items-center gap-2">
-            <a href="#aboutme" className="text-center justify-start text-indigo-900 text-2xl font-medium font-['Playfair_Display'] leading-loose">About Me</a>
-          </div>
+            <div className="px-3 py-2 flex justify-center items-center gap-2">
+              <a href="#aboutme" className="text-center justify-start text-2xl font-medium font-['Playfair_Display'] leading-loose">About Me</a>
+            </div>
           
-          <div className="px-3 py-2 flex justify-center items-center gap-2">
-            <a href="#projects" className="text-center justify-start text-indigo-900 text-2xl font-medium leading-loose">Projects</a>
-          </div>
+            <div className="px-3 py-2 flex justify-center items-center gap-2">
+              <a href="#projects" className="text-center justify-start text-2xl font-medium font-['Playfair_Display'] leading-loose">Projects</a>
+            </div>
           
-          <div className="px-3 py-2 flex justify-center items-center gap-2">
-            <a href="#contact" className="text-center justify-start text-indigo-900 text-2xl font-medium leading-loose">Contact</a>
-          </div>
+            <div className="px-3 py-2 flex justify-center items-center gap-2">
+              <a href="#contact" className="text-center justify-start text-2xl font-medium font-['Playfair_Display'] leading-loose">Contact</a>
+            </div>
           
-          <div className="px-3 py-2 flex justify-center items-center gap-2">
-            <a href="https://drive.google.com/file/d/1-nebFR8bCl7dHBkYg9oRd6eJ7FHGARi1/view?usp=sharing" className="text-center justify-start text-indigo-900 text-2xl font-medium font-['Playfair_Display'] leading-loose">Resume</a>
+            <div className="px-3 py-2 flex justify-center items-center gap-2">
+              <a href="https://drive.google.com/file/d/1-nebFR8bCl7dHBkYg9oRd6eJ7FHGARi1/view?usp=sharing" className="text-center justify-start text-2xl font-medium font-['Playfair_Display'] leading-loose">Resume</a>
+            </div>
           </div>
         </nav>
       </header>
@@ -64,7 +65,7 @@ export default function Home() {
               <h3>Achievements & Roles</h3>
               <p>Faculty of Science Dean’s List 2024/2025</p>
               <p>Orientation Leader 2024</p>
-              <h3>Relevant Coursework</h3>
+              <div className="self-stretch justify-start neutral-900 text-base font-medium font-['Playfair_Display'] leading-tight">Relevant Coursework</div>
               <p>CPSC 233: Object Oriented Programming</p>
               <p>CPSC 251: Theoretical Foundations of Computer Science</p>
               <p>CPSC 329: Explorations in Information Security and Privacy</p>
